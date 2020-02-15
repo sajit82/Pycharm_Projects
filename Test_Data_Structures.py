@@ -1,10 +1,35 @@
-#list Contstants
+fruit ="banana"
+'n' in fruit
+print(fruit.upper())
+#searching a string
+pos =fruit.find("na")
+print (pos)
 
-x=[1,2,3,4]
-print (x)
+# search and Replace
 
-friends=['sam','rob','bob']
-for friend in friends:
-     print(friend)
+chng = fruit.replace('na','xa')
+print(chng)
 
+# stripping white space
 
+greet = "   Hello    Sajit     "
+print(greet)
+greet.lstrip()
+print(greet.lstrip())
+greet.rstrip()
+print(greet)
+
+#Prefix
+
+line ='Have a nice day'
+print(line.startswith('h'))
+
+#Parsing and Extracting
+
+data ='smca041@gmail.com  5:24 pm'
+atpos = data.find('@')
+print(atpos)
+sppos =data.find(' ',atpos)
+print(sppos)
+host =data[atpos+1:sppos]
+print(host)
