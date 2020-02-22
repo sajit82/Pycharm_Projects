@@ -31,4 +31,7 @@ print('Counts:-',count)
 for key in count:
     print(key,count[key])
 
-
+# to print the keys,Values & Items using list
+print(count.keys())
+print(count.values())
+print(count.items())
