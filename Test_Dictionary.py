@@ -35,3 +35,8 @@ for key in count:
 print(count.keys())
 print(count.values())
 print(count.items())
+
+# two iteration variable to extract the key and value in a single for loop
+
+for keys , values  in  count.items():
+    print(keys,values)
