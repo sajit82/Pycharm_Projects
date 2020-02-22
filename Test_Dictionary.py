@@ -17,3 +17,14 @@ for num in number:
     count[num]=count.get(num,0)+1
 print(count)
 
+#Writing a program to read through a sentence and print the count of each words used in the sentence
+
+count = dict()
+sentence = input()
+words = sentence.split()
+print('Words:-',words)
+
+for word in words:
+    count[word]=count.get(word,0)+1
+print('Counts:-',count)
+
