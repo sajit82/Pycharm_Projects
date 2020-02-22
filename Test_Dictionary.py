@@ -28,3 +28,7 @@ for word in words:
     count[word]=count.get(word,0)+1
 print('Counts:-',count)
 
+for key in count:
+    print(key,count[key])
+
+
