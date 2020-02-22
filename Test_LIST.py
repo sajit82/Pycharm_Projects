@@ -10,3 +10,4 @@ for i in range(len(friends)):
     print (friends[i])
 
 print(i)
+
